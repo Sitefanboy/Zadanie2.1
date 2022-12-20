@@ -1,0 +1,1362 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(fonts/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(fonts/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-ExBold;
+    src: url(fonts/Gilroy-Extrabold.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Black;
+    src: url(fonts/Gilroy-Black.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-SemiBold;
+    src: url(fonts/Gilroy-Semibold.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Light;
+    src: url(fonts/Gilroy-Light.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(fonts/Gilroy-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.specauto {
+    background-color: #242321;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.specp {
+    color: #FCEC4F;
+    font-size: 14px;
+    font-family: Gilroy-Medium;
+}
+
+.yellowclose {
+    background: url(images/closeyell.png);
+    width: 13px;
+    height: 12px;
+    margin-top: 2.5px;
+    margin-left: 35px;
+}
+
+.justcolor {
+    background-color: white;
+    height: 122px;
+}
+
+.info {
+    width: 1200px;
+    height: 122px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textslogo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    background: url(images/logo.png);
+    width: 137px;
+    height: 110px;
+}
+
+.nearlogo {
+    margin: auto;
+    margin-left: 20px;
+}
+
+.arenda {
+    color: #242321;
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: Gilroy-Bold;
+}
+
+.uslovia {
+    color: #989898;
+    font-size: 14px;
+    margin-top: 8px;
+    font-family: Gilroy-Medium;
+}
+
+.dopfunct {
+    display: flex;
+}
+
+.pointadress {
+    display: flex;
+}
+
+.mappoint {
+    background: url(images/mappoint.png);
+    width: 20px;
+    height: 26px;
+    margin-right: 8px;
+    margin-top: -4px;
+}
+
+.arendacar {
+    width: 1200px;
+    margin: auto;
+    margin-top: 110px;
+}
+
+.textadress {
+    color: #242321;
+    font-size: 14px;
+    font-family: Gilroy-Bold;
+}
+
+.choosecity {
+    color: #989898;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+    font-family: Gilroy-Light
+}
+
+.phone {
+    display: flex;
+    margin-left: 30px;
+}
+
+.phoneimg {
+    background: url(images/phone.png);
+    width: 21px;
+    height: 21px;
+    margin-right: 8px;
+    margin-top: -3px;
+}
+
+.number {
+    color: #242321;
+    font-size: 20px;
+    font-family: Gilroy-ExBold;
+    margin-top: -5px;
+}
+
+.call {
+    color: #989898;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+    font-family: Gilroy-Light
+}
+
+.navigation {
+    background-color: #F5F5F9;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li:nth-child(1) {
+    margin-right: 37.83px;
+}
+
+ul li:nth-child(2) {
+    margin-right: 46.83px;
+}
+
+ul li:nth-child(3) {
+    margin-right: 41px;
+}
+
+ul li:nth-child(4) {
+    margin-right: 39px;
+}
+
+ul li:nth-child(5) {
+    margin-right: 39.83px;
+}
+
+ul li:nth-child(6) {
+    margin-right: 31px;
+}
+
+ul li:nth-child(1)::after {
+    content: url(images/showmore.png);
+    width: 13px;
+    height: 7px;
+    margin-left: 10px;
+}
+
+ul li:nth-child(2)::after {
+    content: url(images/showmore.png);
+    width: 13px;
+    height: 7px;
+    margin-left: 10px;
+}
+
+ul li:nth-child(5)::after {
+    content: url(images/showmore.png);
+    width: 13px;
+    height: 7px;
+    margin-left: 10px;
+}
+
+ul li a:hover {
+    color: #0088CF;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #242321;
+    font-family: Gilroy-SemiBold;
+}
+
+.swap {
+    background: url(images/swap.png);
+    width: 1px;
+    height: 29px;
+    margin-right: 26px;
+}
+
+.profile {
+    background: url(images/profile.png);
+    width: 18px;
+    height: 22px;
+    margin-left: 9px;
+}
+
+.textprof {
+    color: #242321;
+    font-size: 14px;
+    font-family: Gilroy-Bold;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+.textprof:hover {
+    color: #0088CF;
+}
+
+button {
+    cursor: pointer;
+}
+
+.zagolovok {
+    color: #242321;
+    font-size: 42px;
+    font-family: Gilroy-Black;
+}
+
+.bluespan {
+    color: #0088CF;
+}
+
+.udobstvo {
+    color: #989898;
+    font-size: 18px;
+    font-family: Gilroy-Medium;
+    margin-top: 15px;
+}
+
+.catalog {
+    background-color: #0088CF;
+    border: none;
+    border-radius: 5px;
+    font-family: Gilroy-Bold;
+    color: white;
+    font-size: 18px;
+    padding: 20px 55px;
+    margin-top: 77px;
+}
+
+.car {
+    background: url(images/lada.png);
+    position: absolute;
+    z-index: 1;
+    right: 35px;
+    width: 978px;
+    height: 416px;
+    margin-top: -27px;
+}
+
+.square {
+    background: url("images/square.png") no-repeat;
+    width: 612px;
+    height: 808px;
+    position: absolute;
+    z-index: -1;
+    right: 0px;
+    margin-top: -150px;
+}
+
+.creditinfo {
+    width: 1200px;
+    margin: 105px auto 0 auto;
+}
+
+.ncredit {
+    color: #242321;
+    font-size: 30px;
+    font-family: Gilroy-Black;
+}
+
+.ncreditif {
+    color: #242321;
+    font-size: 18px;
+    font-family: Gilroy-Medium;
+    margin-top: 17px;
+    line-height: 1.5;
+}
+
+.punkti {
+    display: flex;
+    gap: 22px;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 34px;
+}
+
+.mnpunkt {
+    text-align: center;
+    font-family: Gilroy-Black;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.textmn {
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 18px;
+    margin-top: 16px;
+    line-height: 1.5;
+}
+
+.punkt {
+    width: 386px;
+    height: 181px;
+    background: white;
+    border: 1px solid #E5E5E5;
+}
+
+.punkt:hover {
+    background: #0088CF;
+    border-radius: 5px;
+    border: 1px solid #0088CF;
+    color: white;
+}
+
+.justcolor2 {
+    background: #F5F5F9;
+    height: 410px;
+    margin-top: 96px;
+}
+
+.podhod {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+.podhodmn {
+    color: #242321;
+    font-size: 30px;
+    font-family: Gilroy-Black;
+    margin-top: 61px;
+}
+
+.strstr {
+    width: 1200px;
+    display: flex;
+    margin: auto;
+}
+
+.str1 {
+    margin-top: 63px;
+    align-items: center;
+}
+
+.str2 {
+    margin-left: 216px;
+    margin-top: 63px;
+}
+
+.strpkt {
+    color: #242321;
+    font-family: Gilroy-Regular;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    line-height: 1.6;
+}
+
+.strpkt::before {
+    content: url(images/ready.png);
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+.strpkt:nth-child(2)::before {
+    content: url(images/ready.png);
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+    margin-top: -22px;
+}
+
+.strpkt:nth-child(1) {
+    margin-bottom: 22px;
+}
+
+.strpkt:nth-child(2) {
+    margin-bottom: 25px;
+}
+
+.vikupobsh {
+    width: 1200px;
+    margin: 80px auto 0 auto;
+}
+
+.vikuptxt {
+    color: #242321;
+    font-size: 30px;
+    font-family: Gilroy-Black;
+    line-height: 1.5;
+}
+
+.statis {
+    width: 1200px;
+    height: 64px;
+    background-color: #F5F5F9;
+    border: 1px solid #0088CF;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.staticpnt {
+    color: #242321;
+    font-size: 18px;
+    font-family: Gilroy-Bold;
+    display: flex;
+    align-items: center;
+}
+
+.staticpnt:nth-child(1) {
+    margin-left: 22px
+}
+
+.staticpnt:nth-child(2) {
+    margin-left: 167px
+}
+
+.staticpnt::before {
+    content: url(images/ready.png);
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+
+
+.size-cont {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 199px 125px;
+    grid-template-columns: 400px 410px 385px;
+    margin-top: 56px;
+}
+
+.zagolovp {
+    font-family: Gilroy-Bold;
+    font-size: 20px;
+    height: 60px;
+    display: flex;
+    align-items: flex-start;
+    line-height: 1.5;
+}
+
+.txtp {
+    font-family: Gilroy-Regular;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.txtp1 {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.txtp2 {
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.txtp3 {
+    margin-left: 55px;
+    margin-top: 10px;
+}
+
+.txtp4 {
+    margin-left: 53px;
+    margin-top: -8px;
+}
+
+.txtp6 {
+    margin-left: 56px;
+    margin-top: -8px;
+}
+
+.punkt1 .zagolovp::before {
+    content: url(images/stackmoney.png);
+    width: 31px;
+    height: 31px;
+    margin-right: 19px;
+    top: 0;
+}
+
+.punkt2 .zagolovp::before {
+    content: url(images/payment.png);
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-top: -18px;
+}
+
+.punkt3 .zagolovp::before {
+    content: url(images/moneydollar.png);
+    width: 36px;
+    height: 36px;
+    margin-right: 19px;
+    margin-top: -4px;
+}
+
+.punkt4 .zagolovp::before {
+    content: url(images/creditcard.png);
+    width: 36px;
+    height: 36px;
+    margin-right: 17px;
+    margin-top: -5px;
+}
+
+.punkt5 .zagolovp::before {
+    content: url(images/gift.png);
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 14px;
+    margin-top: -6px;
+}
+
+.punkt6 .zagolovp::before {
+    content: url(images/sale.png);
+    width: 41px;
+    height: 41px;
+    margin-right: 15px;
+    margin-top: -7px;
+}
+
+.oform {
+    width: 1200px;
+    margin: auto;
+    margin-top: 105px;
+}
+
+.oformzag {
+    color: #242321;
+    font-size: 30px;
+    font-family: Gilroy-Black;
+}
+
+.anotherpunkts {
+    display: flex;
+    width: 1200px;
+    margin: 70px auto 0 auto;
+    justify-content: space-between;
+}
+
+.punktanother {
+    height: 124px;
+    background-color: #242321;
+    border-radius: 5px;
+    display: flex;
+    position: relative;
+}
+
+.another1 {
+    width: 385px;
+}
+
+.another2 {
+    width: 384px;
+}
+
+.another3 {
+    width: 366px;
+}
+
+.txtinput {
+    color: white;
+    font-size: 24px;
+    width: 380px;
+    font-family: Gilroy-Bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input1 {
+    margin-left: -23px;
+}
+
+.input2 {
+    margin-left: 4px;
+}
+
+.input3 {
+    margin-left: 72px;
+}
+
+.pformat {
+    height: 124px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.pphoto {
+    background: url(images/p.png);
+    width: 38px;
+    height: 65px;
+}
+
+.passport {
+    background: url(images/passport.png);
+    width: 132px;
+    height: 132px;
+    position: absolute;
+    z-index: 1;
+    rotate: 20deg;
+    left: -17px;
+    top: -25px;
+}
+
+.passport2 {
+    background: url(images/passport2.png);
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    z-index: 1;
+    rotate: 20deg;
+    left: -13px;
+    top: -18px;
+}
+
+.passport3 {
+    background: url(images/passport3.png);
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    z-index: 1;
+    rotate: 20deg;
+    left: -15px;
+    top: -18px;
+}
+
+.katalogavto {
+    width: 1200px;
+    margin: 100px auto 0 auto;
+}
+
+.headkatal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.txtkatal {
+    color: #242321;
+    font-size: 30px;
+    font-family: Gilroy-Black;
+}
+
+.openkatal {
+    background-color: #0088CF;
+    border: none;
+    border-radius: 5px;
+    font-family: Gilroy-Bold;
+    color: white;
+    font-size: 18px;
+    padding: 15.5px 26.5px;
+}
+
+.avtomobili {
+    width: 1200px;
+    margin: 50px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lada1 {
+    background: url(images/lada1.png);
+    width: 388px;
+    height: 217px;
+}
+
+.lada2 {
+    background: url(images/lada2.png);
+    width: 388px;
+    height: 217px;
+}
+
+.lada3 {
+    background: url(images/lada3.png);
+    width: 388px;
+    height: 217px;
+}
+
+
+.vin-num {
+    background-color: rgba(252, 236, 79, 0.77);
+    color: #242321;
+    width: 37%;
+    font-size: 11px;
+    height: 34px;
+    font-family: Gilroy-Medium;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+}
+
+.vin-soon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.soon-sale {
+    background-color: #0088CF;
+    color: white;
+    width: 33%;
+    font-size: 11px;
+    height: 34px;
+    font-family: Gilroy-Medium;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+    margin-top: 15px;
+}
+
+.first-vin {
+    margin-top: 15px;
+}
+
+.second-vin {
+    margin-top: 8px;
+}
+
+.infos {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.infolada1 {
+    width: 384px;
+    height: 290px;
+    border: 1px solid #E5E5E5;
+    margin-left: 1.8px;
+}
+
+.infolada2 {
+    width: 386px;
+    height: 290px;
+    border: 1px solid #E5E5E5;
+    margin-right: 0.6px;
+}
+
+.infolada3 {
+    width: 384px;
+    height: 290px;
+    border: 1px solid #E5E5E5;
+    margin-left: 1.8px;
+}
+
+.bluezag {
+    color: #0088CF;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    margin-left: 19px;
+    margin-top: 19px;
+}
+
+.mark {
+    color: #242321;
+    font-family: Gilroy-Black;
+    font-size: 20px;
+    margin-left: 19px;
+    margin-top: 14px;
+    line-height: 1.5;
+}
+
+.maininfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.godvipuska {
+    color: #242321;
+    font-family: Gilroy-Medium;
+    margin-left: 19px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.param {
+    margin-top: 20px;
+    margin-left: 19px;
+}
+
+.punktinfo {
+    color: #242321;
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    height: 30px;
+}
+
+.pricelada {
+    margin-top: 20px;
+    margin-right: 44px;
+}
+
+.priceinfo {
+    color: #242321;
+    font-family: Gilroy-Bold;
+    font-size: 16px;
+    height: 30px;
+}
+
+.buttonsharact {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.haract {
+    width: 388px;
+    color: #242321;
+    background-color: #F5F5F9;
+    border: 1px solid #F5F5F9;
+    font-family: Gilroy-Bold;
+    height: 63px;
+    font-size: 19px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.haract:hover {
+    background-color: #0088CF;
+    border: 1px solid #0088CF;
+    color: white;
+}
+
+.getcar {
+    background-color: #F5F5F9;
+    margin-top: 128px;
+    height: 663px;
+}
+
+.getcartxt {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.getxt {
+    color: #242321;
+    font-family: Gilroy-Black;
+    font-size: 30px;
+    margin-top: 71px;
+    line-height: 1.5;
+}
+
+.sroktxt {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.srokvikup {
+    color: #242321;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.shagi {
+    display: flex;
+    width: 1200px;
+    margin: 44px auto 0 auto;
+    justify-content: space-between;
+}
+
+.shag {
+    display: flex;
+    align-items: center;
+}
+
+.shagsz1 {
+    width: 300px;
+}
+
+.shagsz2 {
+    width: 295px;
+}
+
+.shagsz3 {
+    width: 305px;
+}
+
+.shagsz4 {
+    width: 276px;
+}
+
+.shagszt4 {
+    width: 279px;
+}
+
+.lightblueback {
+    background-color: rgba(0, 136, 207, 0.15);
+    border-radius: 3px;
+    width: 58px;
+    height: 58px;
+}
+
+.shag1 {
+    color: #242321;
+    font-family: Gilroy-Black;
+    font-size: 20px;
+    margin-left: -40px;
+}
+
+.shagsz1 .shag1::after {
+    content: url(images/arrow.png);
+    width: 177px;
+    height: 12px;
+    margin-left: 22px;
+}
+
+.shagsz2 .shag1::after {
+    content: url(images/arrow.png);
+    width: 177px;
+    height: 12px;
+    margin-left: 20px;
+}
+
+.shagsz3 .shag1::after {
+    content: url(images/arrow2.png);
+    width: 177px;
+    height: 12px;
+    margin-left: 23px;
+}
+
+.shaginfo {
+    display: flex;
+    width: 1200px;
+    margin: 22px auto 0 auto;
+    justify-content: space-between;
+}
+
+.shagitext {
+    color: #242321;
+    font-family: Gilroy-Medium;
+    line-height: 1.9;
+}
+
+.blackspan {
+    font-family: Gilroy-Bold;
+}
+
+.telefonshag {
+    color: #242321;
+    font-family: Gilroy-Black;
+    font-size: 24px;
+    margin-top: 13px;
+}
+
+.ordercall {
+    background-color: #0088CF;
+    border: none;
+    border-radius: 5px;
+    font-family: Gilroy-Bold;
+    color: white;
+    font-size: 18px;
+    padding: 15.5px 45px;
+    margin-top: 37px;
+}
+
+.arendacar2 {
+    width: 1200px;
+    margin: 115px auto 0 auto;
+}
+
+.arendatxt {
+    color: #242321;
+    font-size: 30px;
+    font-family: Gilroy-Black;
+}
+
+.arendainfo {
+    width: 1200px;
+    height: 190px;
+    background-color: #F5F5F9;
+    border: 1px solid #0088CF;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.arendant {
+    color: #242321;
+    font-size: 18px;
+    font-family: Gilroy-Bold;
+    display: flex;
+    margin-top: 48px;
+}
+
+.arenda1 {
+    margin-left: 19px;
+}
+
+.arenda2 .arendant {
+    margin-left: 134px;
+}
+
+.arendant::before {
+    content: url(images/ready.png);
+    width: 25px;
+    height: 25px;
+    margin-right: 16px;
+}
+
+.arendant2level {
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.ready4ar {
+    background: url(images/ready.png);
+    width: 25px;
+    height: 25px;
+    margin-right: 16px;
+}
+
+.blabla {
+    display: flex;
+    margin-top: 21px;
+}
+
+.arenda2 .blabla {
+    margin-left: 134px;
+}
+
+.justcolor3 {
+    background: #F5F5F9;
+    height: 433px;
+    margin-top: 100px;
+}
+
+.voprosiobsh {
+    width: 1036px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.morequest {
+    color: #242321;
+    font-size: 36px;
+    font-family: Gilroy-Black;
+    margin-top: 54px;
+}
+
+.ifprob {
+    color: #242321;
+    font-size: 18px;
+    font-family: Gilroy-Medium;
+    line-height: 2;
+    margin-top: 33px;
+}
+
+.priemzv {
+    font-size: 20px;
+    font-family: Gilroy-Black;
+    margin-top: 4px;
+}
+
+.numbzv {
+    font-size: 24px;
+    font-family: Gilroy-Black;
+    margin-top: 23px;
+}
+
+.inputvoprosi {
+    margin-top: 62px
+}
+
+input {
+    display: block;
+    outline: none;
+    cursor: pointer;
+}
+
+.check {
+    display: flex;
+    align-items: flex-start;
+}
+
+.box {
+    width: 21px;
+    height: 21px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #E5E5E5;
+    appearance: none;
+    margin-top: 1px;
+}
+
+.box:checked {
+    background-color: #E5E5E5;
+}
+
+.name, .nomer, .quest {
+    background-color: rgba(255, 255, 255, 0.62);
+    padding: 18px 25px;
+    width: 466px;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Gilroy-Regular;
+    color: #242321;
+}
+
+.nomer {
+    margin-top: 30px;
+}
+
+.quest {
+    margin-top: 27px;
+}
+
+.checktxt {
+    font-size: 16px;
+    font-family: Gilroy-Regular;
+    line-height: 1.5;
+    margin-left: 18px;
+}
+
+.bottvopr {
+    display: flex;
+    margin-top: 22px;
+    justify-content: space-between;
+}
+
+.orderquest {
+    background-color: #0088CF;
+    border: none;
+    border-radius: 5px;
+    font-family: Gilroy-Bold;
+    color: white;
+    font-size: 16px;
+    padding: 18px 60px;
+    margin-top: 2px;
+}
+
+.footera {
+    width: 1200px;
+    display: flex;
+    margin: 74px auto 0 auto;
+}
+
+.underscore {
+    text-decoration: underline;
+}
+
+.bluelight {
+    color: #0088CF;
+}
+
+.undertypereg {
+    font-family: Gilroy-Regular;
+    font-size: 14px;
+}
+
+.undertype {
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+}
+
+.undertypeblack {
+    font-family: Gilroy-Black;
+    font-size: 18px;
+}
+
+.nodec a {
+    text-decoration: none;
+    color: #242321;
+}
+
+.margin1 {
+    margin-top: 11px;
+}
+
+.margin2 {
+    margin-top: 12px;
+}
+
+.margin3 {
+    margin-top: 23px;
+}
+
+.margin4 {
+    margin-top: 10px;
+}
+
+.footerleft {
+    width: 440px;
+}
+
+.footermid {
+    width: 386px;
+    margin-top: 9px;
+}
+
+.footeright {
+    margin-top: 9px;
+}
+
+.undera {
+    width: 1200px;
+    margin: 45px auto 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.socials {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.graycube {
+    background-color: #F5F5F9;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.hyperlinks {
+    display: flex;
+    gap: 88px;
+    margin-left: 190px;
+}
+
+.hypertxt a {
+    color: #242321;
+    font-family: Gilroy-Regular;
+    font-size: 14px;
+}
+
+.end {
+    background-color: #242321;
+    height: 50px;
+    margin-top: 41px;
+}
+
+.backend {
+    display: flex;
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.endtxt {
+    color: #FCEC4F;
+    font-size: 14px;
+    font-family: Gilroy-Regular;
+}
+
+.endtxt a {
+    color: #FCEC4F;
+}
+
+.vk {
+    background: url(images/vk.png);
+    width: 23px;
+    height: 27px;
+}
+
+.teleg {
+    background: url(images/teleg.png);
+    width: 19px;
+    height: 27px;
+}
+
+.inst {
+    background: url(images/inst.png);
+    width: 18px;
+    height: 27px;
+}
+
+.vkblue {
+    background: url(images/vkblue.png);
+    width: 23px;
+    height: 27px;
+}
